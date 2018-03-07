@@ -36,7 +36,7 @@ public class LoginTest extends Browserselection{
 
 @Then("^User should be logged in Successfully$")
 	public void user_should_be_logged_in_Successfully() throws Throwable {
-	 System.out.println("User has been successfully logged In");
+	 System.out.println("Hello i m here and logged In successfully");
 	 
 	 Thread.sleep(2000);
 	 driver.quit();
